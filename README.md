@@ -16,5 +16,7 @@ See the demo 👉🏻[here](https://nagisa1993.github.io/SimpleTimeline.io/)
 
 6️⃣ Write JavaScript to make controllers move! 
 ```
-scrollbars 👉🏻 "single move" 👉🏻 only change relative translate transform, mask 👉🏻 "group move" 👉🏻 change absolute translate transform. While moving, calculate translate and scale value for data-display area to make it move accordingly!
+scrollbars 👉🏻 "single move" 👉🏻 only change relative translate transform.
+mask 👉🏻 "group move" 👉🏻 change absolute translate transform. 
+While moving, calculate translate and scale value for data-display area to make it move accordingly!
 ```
