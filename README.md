@@ -20,3 +20,13 @@ scrollbars 👉🏻 "single move" 👉🏻 only change relative translate transf
 mask 👉🏻 "group move" 👉🏻 change absolute translate transform. 
 While moving, calculate translate and scale value for data-display area to make it move accordingly!
 ```
+```
+rate = w / L
+dataVisible length = rate * dataLength
+dataInvisible length = - x * dataLength / L
+
+assume the dataLength after scaling is L1, we get:
+w / L = L` / L1
+so scale = L1 / dataLength =  L` / (rate * dataLength)
+so d = dataInvisible length * scale
+```
